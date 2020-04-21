@@ -1,0 +1,336 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+.clear{
+	overflow: hidden;
+}
+.template{
+	width:1000px;
+	margin: 0 auto;
+}
+a{
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:underline; 
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+p{
+	margin-bottom:15px;
+}
+.header-section{height:63px;
+background-color:#eaf2f4;
+border-top: 5px solid #4d4e49;
+border-bottom: 2px solid #a1bcc2; }
+.herderLeft{float:left;
+color: #4D4E49;
+width: 415px;
+margin-right:50px;
+
+
+ }
+.herderLeft h2{font-family: geogia;
+font-size: 36px;
+padding-left: 20PX;
+border-right:1px solid;
+margin-top: 8px;
+padding-right: 45px;
+float: left;
+display: inline-block;
+
+}
+.herderLeft p{float:left;
+font-family: geogia;
+font-size: 16px;
+margin-left:12px;
+margin-top:20px;
+
+ }
+ .herderRight{
+    float: right;
+    width: 380px;
+    margin-top: 15px;
+    margin-right: -70px;
+}
+.herderRight .input1{
+	 width: 235px;
+    height: 25px;
+    background-color: #d5e5e8;
+    border: 2px solid #a1bcc2;
+    padding-left: 5px;
+	color: #666666;
+
+}
+.herderRight .input2{    background-color: #d5e5e8;
+    border: 2px solid #a1bcc2;
+    height: 29px;
+    width: 40px;
+    cursor: pointer;
+
+}
+.menu-section{background: #eaf2f4;
+height: 55px;}
+.menu-sectionLeft{float: left;
+width: 805px;}
+.menu-sectionLeft ul{margin: 0;
+padding: 0;
+list-style: none;}
+.menu-sectionLeft ul li{
+	 float: left;
+    display: block;
+    font-size: 14px;
+    margin: 5px 0;
+    padding: 15px 25px;
+    border-right: 1px solid #adbcbf;
+
+}
+.menu-sectionLeft ul li:last-child{
+	border-right:0px solid;
+}
+.menu-sectionLeft ul li a{
+	  color: #666666; 
+	  display: block;
+}
+.menu-sectionLeft ul li a:hover{}
+.menu-sectionRight{ float: right;
+    width: 195px;
+    margin-top: 10px;
+    margin-right: 10px;}
+.menu-sectionRight p{
+	margin: -1px 2px;
+	    color: #5d655a;
+}
+.banner-section{border-top: 2px solid #116fa6;
+border-bottom:2px solid #116fa6; 
+background: #049bac;
+min-height: 335px;}
+.bannar-sectionLeft{
+	float: left;
+	width: 540px;
+	margin-left: 40px;
+}
+.bannar-sectionLeft h2{
+	color: #ffffff;
+	margin-top: 55px;
+	padding-bottom: 10px;
+	font-size: 36px;
+	font-family: Georgia;
+	border-bottom: 1px solid #fff;
+
+}
+.bannar-sectionLeft p{
+	color: #ffffff;
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 18px;
+
+}
+.bannerlink{
+    margin-left: -20px;
+}
+.bannlink{
+	  background: #dedede none repeat scroll 0 0;
+    padding: 9px 20px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 168px;
+}
+.bannlink:hover{
+	transform: scale(1.1);
+	transition: .5s;
+}
+.bannlink a{
+	color: #333333;
+   font-size: 20px;
+font-weight: normal;
+text-align: center;}
+.bannlink a:hover{
+}
+.bannar-sectionRight{
+	margin-right: 20px;
+	float: right;
+	width: 480px;
+}
+.bannar-sectionRight img{
+	border: 7px solid #eaf2f4;
+	margin-top: 40px;
+
+}
+.service-section{background: #eaf2f4;
+	
+;
+}
+.allservice{margin:40px 30px;
+border-bottom: 1px solid #ffffff;
+padding-bottom: 30px;}
+.service{float: left;
+width:320px;
+height: 250px;
+border:1px solid #cdd8d8;
+}
+.service:hover{
+	box-shadow:0 2px rgba(0,0,0.2);
+}
+.service h2{
+	color: #049bac;
+	font-size: 22px;
+	font-family: Georgia;
+	text-transform: uppercase;
+	background: #f1f7f7;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.sameservice{padding:0 10px 10px;}
+ .sameservice h3{
+	font-size: 22px;
+	font-family: Georgia;
+	color: #666666;
+	border-bottom: 1px solid #666666;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+.sameservice p	color: #666666;{}
+.sameservice a{float: right;
+    color: #333333;
+}
+.sameservice a:hover{
+}
+.content-section{background: #eaf2f4;}
+.contentLeft{float: left;
+width: 500px;
+margin-left: 20px;
+margin-right: 20px;}
+.contentLeft h2{
+	font-size: 22px;
+	font-family: Georgia;
+	color: #666666;
+	padding-bottom: 8px;
+}
+.contentLeftdesc{
+	border-top: 1px solid #475c5f;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.contentLeftdesc .leftimg{float: left;
+width: 100px;
+margin-right: 10px;
+}
+.leftimg img{
+background: #fff;
+	border: 1px solid #444;
+	padding: 4px;
+}
+.contentLeftdesc .lefttext{width: 300px;
+color: #666666;}
+.contentLeftdesc .lefttext h4{
+	font-weight: bold;
+}
+.contentLeftdesc .lefttext p{
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+.contentLeftdesc .lefttext a{
+
+float: right;
+color: #444;
+}
+.contentLeftdesc .lefttext a:hover{}
+.contentRight{float: right;
+width: 765px;margin-right: 20px;}
+.contentRight h2{
+	font-size: 22px;
+	font-family: Georgia;
+	color: #666666;
+	border-bottom: 1px solid #cdd8d8;
+	margin-bottom: 15px;
+	padding-bottom: 8px;
+}
+.contentRightdesc{}
+.contentRightdesc img{
+	border: 1px solid #444;
+	float: left;
+	margin-right: 20px;
+	padding: 5px;
+}
+.contentRightdesc h4{
+	font-weight: bold;
+	color: #666;
+	margin-bottom: 5px;
+}
+.contentRightdesc p{
+	color: #666;
+	margin-bottom: 35px;
+}
+.footertop-section {
+	background: #2c2c2d;
+	height:250px;
+	border-bottom: 2px solid #3d3d3d;
+}
+.somefooter{width:420px;
+float: left;
+margin-left: 20px;}
+.somefooter h2{
+	border-bottom: 1px solid #b5b5b5;
+	color: #b5b5b5;
+	font-family: Georgia;
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	padding-bottom: 5px;
+}
+.somefooter p{
+	color: #b5b5b5;
+	color: #98989a;
+	margin-bottom: 10px;
+}
+.somefooter .input3{
+	margin-bottom: 15px;
+	padding: 5px;
+	width: 250px;
+}
+.somefooter .input4 {
+	background: #fff none repeat;
+	border: 1px solid #fff;
+	cursor: pointer;
+	padding: 5px;
+    padding-right: 13px;
+}
+.somefooter ul {padding: 0;
+margin: 0;
+list-style: none;}
+.somefooter ul li {
+	padding-bottom: 5px;
+}
+.somefooter ul li a {
+	color: #049bac;
+	font-weight: normal;
+}
+.somefooter a{
+color: #b5b5b5;
+    display: block;
+    padding: 5px}
+ .somefooter .blue{display: block;
+    padding: 5px;
+color: #049bac;}
+.footerbottom-section{
+	background:#252526;
+	color: #ffffff;
+	font-size: 14px;
+	height: 45px;
+
+}
+.footerbottomLeft{float: left;}
+.footerbottomLeft p{    margin: 15px 30px;
+    font-weight: normal;}
+.footerbottomRight{float: right;}
+.footerbottomRight p{    margin: 20px 20px;
+    font-weight: normal;}
